@@ -1,6 +1,4 @@
 import { GetStaticProps } from 'next';
-import { useEffect } from 'react';
-import { Badge } from '../components/Badge';
 import { Cards } from '../components/Cards';
 import { Profile } from '../components/Profile';
 import SEO from '../components/SEO';

@@ -26,7 +26,6 @@ export default function SEO({
 
       {!shouldIndexPage && <meta name="robots" content="noindex,nofollow" />}
 
-      <link rel="shortcut icon" href="/avatar.png" type="image/x-icon"/>
       <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
       <meta name="MobileOptimized" content="320" />
       <meta name="HandheldFriendly" content="True" />
