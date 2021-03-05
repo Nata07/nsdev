@@ -1,0 +1,32 @@
+.badge {
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: center;
+  width: 3.1rem;
+}
+
+.badge span {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  z-index: 10;
+  /* top: 1rem;
+  right: 1rem; */
+  display: block;
+  padding: 0.2rem 0.3rem;
+  color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+span.nodejs {
+  background-color: var(--nodejs) !important;
+}
+
+span.reactjs {
+  background-color: var(--reactjs) !important;
+}
+
+span.nextjs {
+  background-color: var(--nextjs) !important;
+}

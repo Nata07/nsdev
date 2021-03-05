@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  /* max-width: 992px; */
+  margin: 0 auto;
+  padding: 2rem 5.5rem;
+}
+
+.content {
+  position: static;
+  padding-left: 36rem;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .content {
+    position: static;
+    padding-left: 0;
+  }
+}

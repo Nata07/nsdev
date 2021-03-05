@@ -1,0 +1,73 @@
+.projects h2 {
+  font-size: 2rem;
+  display: none;
+}
+
+.main .cads {
+  display: flex;
+}
+
+.cards {
+  padding-top: 2rem;
+  transition: all 0.2s;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  /* transform: translate3d(15%, 0, 10px) rotate(2deg); */
+  /* z-index: 11; */
+}
+
+.cards .card {
+  background: #202022;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  text-align: justify;
+}
+
+.card > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .badge {
+  align-self: center;
+}
+.card .badge div {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.card .badge div:last-child {
+  margin-right: 0;
+}
+
+.card div p {
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+  font-size: 0.7rem;
+  background: -webkit-linear-gradient(5deg, #ff79c6, #8be9fd 70%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 2rem;
+}
+
+.card > span {
+  font-size: 0.8rem;
+}
+
+.works {
+  padding: 3rem 0 1rem;
+}
+
+.line {
+  border-top: 1px solid rgb(50, 50, 56);
+}
+
+.works h2 {
+  display: none;
+}
