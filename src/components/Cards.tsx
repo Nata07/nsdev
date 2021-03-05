@@ -39,39 +39,16 @@ export function Cards() {
               <div className={styles.card}>
                 <div>
                   <p>Projeto de estudo</p>
-                  <div className={styles.badge}>
-                  <div className={styles.badge}>
-                    <Badge tech="nodejs">nodejs</Badge>
-                  </div>
-                  </div>
+                    <div className={styles.badge}>
+                      <Badge tech="nodejs">nodejs</Badge>
+                      <Badge tech="reactjs">reactjs</Badge>
+                    </div>
                 </div>
-                <h3>GoBarber - Server</h3>
+                <h3>GoBarber</h3>
                 <span>
                   Projeto desenvolvido no curso GoStack 9.0 da Rocketseat.
                   A aplicação desenvolvida é um sistema para agendamentos 
                   de horários online para barbearias.      
-                </span>
-              </div>
-            </a>
-          </div>
-          <div className={styles.cards}>
-            <a href="https://github.com/Nata07/gostack-gobarber-web" target="_blank" 
-              onMouseEnter={onMouseEnter}
-            >
-              <div className={styles.card}>
-                <div>
-                  <p>Projeto de estudo</p>
-                  <div className={styles.badge}>
-                  <div className={styles.badge}>
-                    <Badge tech="reactjs">reactjs</Badge>
-                  </div>
-                  </div>
-                </div>
-                <h3>GoBarber - Web</h3>
-                <span>
-                  Projeto desenvolvido no curso GoStack 9.0 da Rocketseat.
-                  A aplicação desenvolvida é um sistema para agendamentos 
-                  de horários online para barbearias.. <br/>                  
                 </span>
               </div>
             </a>
@@ -84,9 +61,7 @@ export function Cards() {
                 <div>
                   <p>Projeto de estudo</p>
                   <div className={styles.badge}>
-                  <div className={styles.badge}>
                     <Badge tech="reactjs">reactjs</Badge>
-                  </div>
                   </div>
                 </div>
                 <h3>GoRestaurant</h3>

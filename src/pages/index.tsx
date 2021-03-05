@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 import { Cards } from '../components/Cards';
 import { Profile } from '../components/Profile';
 import SEO from '../components/SEO';
-import styles from '../styles/home.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
 
