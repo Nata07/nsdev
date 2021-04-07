@@ -12,6 +12,27 @@ export function Cards() {
 
         <div className={styles.main}>
           <div className={styles.cards}>
+            <a href="https://ns-worldtrip.vercel.app/" target="_blank" 
+              onMouseEnter={onMouseEnter}
+            >
+              <div className={styles.card}>
+                <div>
+                  <p>Projeto de estudo</p>
+                  <div className={styles.badge}>
+                    <Badge tech="nextjs">nextjs</Badge>
+                    <Badge tech="reactjs">reactjs</Badge>
+                  </div>
+                </div>
+                <h3>WorldTrip</h3>
+                <span>
+                  Projeto desenvolvido no curso <strong>Ignite </strong> 
+                   da Rocketseat. Projeto basico para fixar os conceitos de interfaces 
+                  declarativas, usando a lib <strong>Chakra UI</strong>.
+                </span>
+              </div>
+            </a>
+          </div>
+          <div className={styles.cards}>
             <a href="https://nsmoveit.vercel.app/" target="_blank" 
               onMouseEnter={onMouseEnter}
             >
